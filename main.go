@@ -26,7 +26,7 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
-// For security purposes, SkipVerify should always be set to "false" except for testing purposes
+// For security purposes, SkipVerify should always be set to "false" except during testing
 const SkipVerify = false
 
 var Domainname string
